@@ -10,6 +10,14 @@ namespace CS_Step200
     {
         static void Main(string[] args)
         {
+            Number number = new Number();
+            number.Amount = 21;
+            Console.WriteLine(number.Amount);
+            Console.ReadLine();
+        }
+        struct Number
+        {
+            public decimal Amount;
         }
     }
 }
